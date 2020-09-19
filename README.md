@@ -1,4 +1,4 @@
-# Ejercicios C#
+# Ejercicios de programación en C#
 
 Repositorio en el que recopilo ejercicios resueltos de programación en C#.
 El repositorio se organiza en varias soluciones:
