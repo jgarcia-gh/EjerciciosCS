@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio8
+namespace Ejercicio7
 {
-    class Actor
+    public class Autor
     {
-
-        public string Nombre { get; set; }
+        public String Nombre { get; set; }
         public int AnyoNacimiento { get; set; }
 
-        public Actor(string nombre, int anyoNacimiento)
+        public Autor(string nombre)
         {
             Nombre = nombre;
-            AnyoNacimiento = anyoNacimiento;
         }
 
         public override string ToString()
         {
-            return Nombre + " " + AnyoNacimiento;
+            string cadena = "Nombre: " + Nombre;
+            cadena += "\n\tAño nacimiento: " + AnyoNacimiento;
+            return cadena;
         }
     }
 }

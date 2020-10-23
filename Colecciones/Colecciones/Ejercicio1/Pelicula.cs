@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio8
+namespace Ejercicio1
 {
     class Pelicula
     {

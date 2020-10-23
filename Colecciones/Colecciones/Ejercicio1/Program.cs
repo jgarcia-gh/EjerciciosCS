@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio8
+namespace Ejercicio1
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+
 
             List<Pelicula> peliculas = new List<Pelicula>();
 
@@ -62,7 +64,7 @@ namespace Ejercicio8
                 Console.WriteLine(peli + "\n");
             }
             Console.ReadKey();
-        }
 
+        }
     }
 }
